@@ -1,39 +1,50 @@
 # Community Software Analysis Proposal
 Please edit this file and push to your repository.
 
-## Software: *NAME_OF_PACKAGE_HERE*
+## Software: PETSc
 
-*Write a paragraph describing what the software does and who its
-primary audience is.*
+PETSc is the Portable Extensible Toolkit for Scientific computing. It is a
+large library with various sub-modules for assisting in the computation of PDE
+and optimization problems. It does everything from linear algebra, to
+differential equation methods, to distributed data types, and even can handle
+discretization handling.
+
+The primary audience for the software are people who *build* large scale,
+scientific computing programs. It has examples of solving specific problems,
+but it's really made to be a library used to solve specific problems. As such,
+it doesn't have much domain-specific functions or terminology.
 
 ### Stats
 
 | Description | Your answer |
 |---------|-----------|
-| Repository URL |    |
-| Main/documentation website |    |
-| Year project was started |   |
-| Number of contributors in the past year | `git shortlog -se --since=2021-10-01` may be useful |
-| Number of contributors in the lifetime of the project |   |
-| Number of distinct affiliations | 1, 2-5, 5-10, >10 |
-| Where do development discussions take place? | e.g., GitHub/GitLab issues, mailing list, Slack, etc.  |
-| Typical number of emails/comments per week? |   |
-| Typical number of commits per week? |  |
-| Typical commit size | `git log --shortstat` may be useful |
-| How does the project accept contributions? | e.g., pull requests, patches on mailing lists   |
-| Does the project have an automated test suite? | yes/no |
-| Does the project use continuous integration? | yes/no |
-| Are any legal/licensing steps required to contribute? | no or explain below |
+| Repository URL | https://gitlab.com/petsc/petsc |
+| Main/documentation website |  https://petsc.org/main  |
+| Year project was started |  1991  |
+| Number of contributors in the past year | 65 |
+| Number of contributors in the lifetime of the project | 367  |
+| Number of distinct affiliations |  2-5  |
+| Where do development discussions take place? | GitLab issues, mailing list |
+| Typical number of emails/comments per week? | ~20 |
+| Typical number of commits per week? | ~50 |
+| Typical commit size | 20-100 lines |
+| How does the project accept contributions? | Merge Request |
+| Does the project have an automated test suite? | yes |
+| Does the project use continuous integration? | yes |
+| Are any legal/licensing steps required to contribute? | no |
+
+Nothing explicit, there's a DCO for the project, but otherwise there's no
+difference.
 
 ### Install and run
 
 Check the following boxes when complete or add a note below if you
 encountered a problem.
 
-- [ ] I have installed the software
-- [ ] I have run at least one example
-- [ ] I have run the test suite
-- [ ] The test suite passes
+- [x] I have installed the software
+- [x] I have run at least one example
+- [x] I have run the test suite
+- [x] The test suite passes
 
 ### Notes/concerns/risks
 
